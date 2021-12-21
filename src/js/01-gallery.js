@@ -26,7 +26,8 @@ var lightbox = new SimpleLightbox('.gallery a', {
     captions: true,
     captionsData:"alt",
     captionPosition:'bottom',
-    captionDelay: 250,/* options */ });
+    captionDelay: 250,/* options */ })
+    console.log(lightbox)
     
 function onGalleryContainerClick(evt) {
     evt.preventDefault();
